@@ -1,7 +1,8 @@
----
-layout: post
-title: Page 2
----
+
+layout: page
+title: "Page2"
+permalink: /page2
+
 
 ### This is page 2
 
