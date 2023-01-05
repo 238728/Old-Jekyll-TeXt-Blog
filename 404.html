@@ -5,6 +5,25 @@ title: 页面未找到-404
 ---
 {% include calculate_relative_base.html %}
 {% include escape-404.html %}
+<style>
+.button {
+  border: none;
+  color: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+</style>
 <h1 align="center">
     404
 </h1>  
@@ -13,8 +32,10 @@ title: 页面未找到-404
 </h2>  
 <p align="center">
     是否迷路了？点此    
-<a href="{{ relativebase }}">
+    <a href="{{ relativebase }}">
+        <button class="button button2">
     回到主页
+    </button>
 </a></p>
 <form class="search-form inline">
     <div id="search-container">
