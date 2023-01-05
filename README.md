@@ -2,6 +2,9 @@
 
 Welcome to [238728.github.io](238728.github.io)!
 
-Special thanks to Armando Maynez for providing the theme [Adam Blog ver2.0](http://jekyllthemes.org/themes/adam-blog-2/).
+This site is uupeter's second blog site, you can view the first site [here](https://peteruu-bbmq.blog.luogu.org/).
+
+--------------
+$\mathit Special$ thanks to [Armando Maynez](https://github.com/amaynez) for providing the theme [Adam Blog ver2.0](http://jekyllthemes.org/themes/adam-blog-2/).
 
 Have fun!
