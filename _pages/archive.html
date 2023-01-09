@@ -22,7 +22,7 @@ infinite: yes
 			<a class="post-list-title" href="{{ post_url }}">{{ post.title }}</a>
 			{% include post_meta.html type="post-card-meta" %}
 			<div class="post-excerpt">
-				{{ post.content | markdownify | strip_newlines | truncatewords: 100 }}<a class="read-more" href="{{ post_url }}"> 阅读更多</a>
+				{{ post.content | markdownify | strip_newlines | truncatewords: 100 }}<h6 href="{{ post_url }}"> 阅读更多</h6>
 			</div>
 		</div>
 	{% endfor %}
