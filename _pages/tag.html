@@ -1,6 +1,6 @@
 ---
 layout: menu-page
-title: Tag
+title: 标签
 permalink: tag:output_ext
 infinite: yes
 ---
@@ -10,7 +10,7 @@ infinite: yes
 {% for item in (0..site.tags.size) %}{% unless forloop.last %}
 	{% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
 	<div id="{{ this_word }}" class="hidden tag-master">
-		<h1>标签：{{ this_word }}</h1>
+		<h3>标签：{{ this_word }}</h3>
 		<div class="archive">
 			<div class="post-list">
 		    {% for post in site.tags[this_word] limit:3 %}
@@ -19,7 +19,7 @@ infinite: yes
 					<a class="post-list-title" href="{{ post_url }}">{{ post.title }}</a>
 					{% include post_meta.html type="post-card-meta" %}
 					<div class="post-excerpt">
-						{{ post.content | markdownify | truncatewords: 100 }}<a class="read-more" href="{{ post_url }}"> read more</a>
+						{{ post.content | markdownify | truncatewords: 10 }}<a class="read-more" href="{{ post_url }}"> 阅读更多</a>
 					</div>
 				</div>
 			{% endfor %}
