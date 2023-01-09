@@ -9,7 +9,7 @@ layout: default
       <a  class="post-list-title" href="{{ post_url }}">{{ page.title }}</a>
       {% include post_meta.html type="post-card-meta" %}
         <div class="post-excerpt">
-            {{ page.content | markdownify | strip_newlines | truncatewords: 100 }}<a class="read-more" href="{{ post_url }}"> 阅读更多</a>
+            {{ page.content | markdownify | strip_newlines | truncatewords: 3}}<a class="read-more" href="{{ post_url }}"> 阅读更多</a>
         </div>
   </div>
 </section>
@@ -23,7 +23,7 @@ layout: default
     <div class="wrapper">
       <div class="page-content">
         <div class="header-page">
-          <h1 class="page-title">{{ page.title }}</h1>
+          <h2 class="page-title">{{ page.title }}</h2>
           <h5 class="page-description">{{ page.description }}</h5>
           {% include post_meta.html type="post-page-meta" %}
         </div>
