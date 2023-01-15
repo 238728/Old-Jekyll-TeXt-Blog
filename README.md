@@ -1,6 +1,6 @@
 # Hi!
 
-Welcome to [238728.github.io](238728.github.io)!
+Welcome to [238728.github.io](https://238728.github.io)!
 
 This site is uupeter's second blog site, you can view the first site [here](https://peteruu-bbmq.blog.luogu.org/).
 
