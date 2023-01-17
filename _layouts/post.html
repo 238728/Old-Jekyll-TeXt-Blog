@@ -24,8 +24,8 @@ layout: default
       <div class="page-content">
         <div class="header-page">
           <h2 class="page-title" align="center">{{ page.title }}</h2>
-          <h5 class="page-description">{{ page.description }}</h5>
           {% include post_meta.html type="post-page-meta" %}
+          <p class="page-description" align="center">{{ page.description }}</p>
         </div>
         {% include sidebar.html context="post" class="side" id="sidebar" %}
         {% if page.toc %}{% include sidebar-toc.html %}{% endif %}
