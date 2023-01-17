@@ -9,7 +9,7 @@ layout: default
       <a  class="post-list-title" href="{{ post_url }}">{{ page.title }}</a>
       {% include post_meta.html type="post-card-meta" %}
         <div class="post-excerpt">
-            {{ page.content | markdownify | strip_newlines | truncatewords: 100 }}<a class="read-more" href="{{ post_url }}"> read more</a>
+            {{ page.content | markdownify | strip_newlines | truncatewords: 3}}<a class="read-more" href="{{ post_url }}"> 阅读更多</a>
         </div>
   </div>
 </section>
@@ -18,13 +18,16 @@ layout: default
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     {% include schema-meta.html %}
     <div class="page-image">
-      <div class="cover-image" style="background: url('{{ relativebase }}assets/img/{{ page.img }}') center no-repeat; background-size: cover;"></div>
+      <div class="cover-image" style="background: url('{{ page.img }}') center no-repeat; background-size: cover;"></div>
     </div>
     <div class="wrapper">
       <div class="page-content">
         <div class="header-page">
-          <h1 class="page-title">{{ page.title }}</h1>
+          <h1 class="page-title" align="center">{{ page.title }}</h1>
           {% include post_meta.html type="post-page-meta" %}
+          <div class="separator"></div>
+          <h4 class="page-description" align="center">{{ page.description }}</h4>
+          <div class="separator"></div>
         </div>
         {% include sidebar.html context="post" class="side" id="sidebar" %}
         {% if page.toc %}{% include sidebar-toc.html %}{% endif %}
@@ -36,6 +39,5 @@ layout: default
       </div>
     </div> <!-- End Wrapper -->
   </article>
-  {% include search.html %}
   {% include footer.html %}
 </div>
