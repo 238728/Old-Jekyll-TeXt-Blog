@@ -47,6 +47,7 @@ header:
       fr-FR   : *FR
       fr-LU   : *FR
     url: /words.html
+    key: words
 
   - titles:
       # @start locale config
