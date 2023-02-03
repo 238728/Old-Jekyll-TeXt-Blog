@@ -1,38 +1,35 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: 'BUG - '
-labels: bug
-assignees: amaynez
+title: 'Bug:'
+labels: ''
+assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+<!-- Prefer English -->
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**Description**
+
+[Description of the bug]
+
+**Steps to Reproduce**
+
+1. [First Step]
+2. [Second Step]
+3. [and so on...]
 
 **Expected behavior**
-A clear and concise description of what you expected to happen.
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+[What you expected to happen]
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+**Screenshots (If Necessary)**
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+[Screenshots to help explain your problem.]
 
-**Additional context**
-Add any other context about the problem here.
+**Environment (If Necessary)**
+
+- OS: [e.g. Github Pages, Windows 10, macOS 10.13, Linux(CentOS 7.5), iOS 11, Android 8(Pixel 2)]
+- Ruby: [e.g. Github Pages, 2.4.0p0]
+- Jekyll: [e.g. Github Pages, 3.7.3]
+- Browser: [e.g. Chrome, Safari, Edge, Firefox]
