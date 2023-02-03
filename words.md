@@ -1,6 +1,6 @@
 ---
 sidebar:
-    nav: plog
+    nav: words
 ---
 
 ## Words-随想录
