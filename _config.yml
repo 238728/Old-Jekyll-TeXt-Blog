@@ -28,7 +28,7 @@ description: > # this means to ignore newlines until "Language & timezone"
 ## => Language and Timezone
 ##############################
 lang: zh # the language of your site, default as "en"
-timezone: UTC-1 # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+timezone: UTC-5 # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
 ## => Author and Social
@@ -38,7 +38,7 @@ author:
   name      : uupeter
   url       : https://238728.github.io
   avatar    : https://cdn.luogu.com.cn/upload/usericon/801594.png # path or url of avatar image (square)
-  bio       : I am an amazing person.
+  bio       : 6th Grader.
   email     : uupeter@126.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
@@ -55,7 +55,7 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: user_name/repo_name
+repository: 238728/238728.github.io
 repository_tree: master
 
 
