@@ -26,7 +26,7 @@ titles:
 mode: immersive
 article_header:
   type: overlay
-  theme: light
+  theme: dark
   background_image: 
     src: https://ts1.cn.mm.bing.net/th/id/R-C.2f4c6399fdca966b3230b64ad3f6b051?rik=sPVNDRJw%2fWtXeg&riu=http%3a%2f%2fpic101.huitu.com%2fpic%2f20171111%2f617553_20171111151045739050_0.jpg&ehk=DP2w86l%2b06BhQIjcDk3KYojhl6kqDXYuABeU%2fXFx%2fao%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1
 sidebar:
