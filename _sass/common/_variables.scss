@@ -125,7 +125,7 @@ $button: (
   padding-y-xs:           ($button-height-xs - map-get($base, font-size-xs)) / 2,
   padding-x-xs:           $button-height-xs / 3,
 
-  pill-radius:            6rem,
+  pill-radius:            2rem,
 
   circle-diameter-xl:     $button-height-xl,
   circle-diameter-lg:     $button-height-lg,
