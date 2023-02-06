@@ -133,7 +133,7 @@
   font-size: map-get($base, font-size-lg);
   font-weight: map-get($base, font-weight-bold);
   color: $text-color-l;
-  text-transform: uppercase;
+  text-transform: capitalize;
   .search--light & {
     color: $text-color-theme-light-l;
   }
