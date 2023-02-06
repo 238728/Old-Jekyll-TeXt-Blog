@@ -160,13 +160,16 @@
       @include plain() {
         color: $text-color-3;
         background-color: $main-color-3;
+        border-radius: 1rem;
         .search--light & {
           color: $text-color-theme-dark;
           background-color: $main-color-theme-light;
+          border-radius: 1rem;
         }
         .search--dark & {
           color: $text-color-theme-light;
           background-color: $main-color-theme-dark;
+          border-radius: 1rem;
         }
       }
       @include active() {
