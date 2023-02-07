@@ -8,8 +8,14 @@
 <script type="text/javascript">
     $(function() {
         var editor = editormd("test-editor", {
+            mode: "markdown",
             width  : "100%",
             height : "100%",
+            emoji : true,
+            tex : true,          // TeX(LaTeX), based on KaTeX
+            flowChart : true,          // flowChart.js only support IE9+
+            sequenceDiagram : true,          // sequenceDiagram.js only support IE9+
+            previewCodeHighlight : true,   
             path   : "/editormd/lib/"
         });
     });
