@@ -204,6 +204,8 @@ exclude:
 collections:
   words:
     output: true
+  editormd:
+    output: true
 
 defaults:
   - scope:
@@ -230,7 +232,12 @@ defaults:
         toc: true
       show_edit_on_github: true
       show_date: false
-  
+  - scope:
+      layout: article
+      path: "_editormd"
+    values:
+      nav_key: editormd
+    show_date: false
 
 
 ## => Plugins
