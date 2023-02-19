@@ -221,12 +221,12 @@ defaults:
       show_subscribe: true
       pageview: true
   - scope:
-      path: "_words"
+      path: "_thoughts"
     values:
       layout: article
-      nav_key: words
+      nav_key: thoughts
       sidebar:
-        nav: words
+        nav: thoughts
       license: true
       aside:
         toc: true
