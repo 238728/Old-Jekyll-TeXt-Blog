@@ -227,7 +227,7 @@ defaults:
       nav_key: thoughts
       sidebar:
         nav: thoughts
-      license: true
+      license: false
       aside:
         toc: true
       show_edit_on_github: true
