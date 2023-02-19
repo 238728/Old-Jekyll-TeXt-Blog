@@ -46,7 +46,7 @@ header:
       fr-CH   : *FR
       fr-FR   : *FR
       fr-LU   : *FR
-    url: /words.html
+    url: /thoughts.html
     key: words
 
   - titles:
@@ -99,7 +99,7 @@ header:
       # @end locale config
     url: /editormd.html
     
-words:
+thoughts:
   - title:      2023
     children:
       - title:  January
