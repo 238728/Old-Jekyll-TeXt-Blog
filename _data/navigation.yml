@@ -47,7 +47,7 @@ header:
       fr-FR   : *FR
       fr-LU   : *FR
     url: /thoughts.html
-    key: words
+    key: thoughts
 
   - titles:
       # @start locale config
