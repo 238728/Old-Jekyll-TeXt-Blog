@@ -221,7 +221,7 @@ defaults:
       show_subscribe: true
       pageview: true
   - scope:
-      path: "_thoughts"
+      path: "_words"
     values:
       layout: article
       nav_key: thoughts
