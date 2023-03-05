@@ -1,6 +1,6 @@
 ---
 title: Christmas Tree
-tags: Template
+tags: [Blogs, HTML Codes]
 author: uupeter
 show_author_profile: true
 modify_date: 2023-03-03
