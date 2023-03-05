@@ -3,13 +3,15 @@ title: Christmas Tree
 tags: Template
 author: uupeter
 show_author_profile: true
-modify_date: 2023-02-03
+modify_date: 2023-03-03
 ---
 
 <!--more-->
-### HTML Code Sharing
+HTML Code Sharing
 
 Christmas Tree:
+
+## Code
 
 ```html
 <!DOCTYPE html>
@@ -634,3 +636,8 @@ Christmas Tree:
 
 </html>
 ```
+## Usage
+
+Copy the code above to a text file (xxx.txt) and rename it to xxx.html, then open the html file with your default browser and......
+
+Now, you can choose a piece of music from the menu (the first four buttons) or press the last button to upload your own music!
