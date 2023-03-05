@@ -1,4 +1,4 @@
 
-# New ~~and Second~~ Blog Website!
+# New Blog Website!
 
 [Blog-About Page](https://238728.github.io/about.html)
