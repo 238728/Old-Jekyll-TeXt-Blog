@@ -641,3 +641,7 @@ Christmas Tree:
 Copy the code above to a text file (xxx.txt) and rename it to xxx.html, then open the html file with your default browser and......
 
 Now, you can choose a piece of music from the menu (the first four buttons) or press the last button to upload your own music!
+
+## Effect
+
+Watch as the lights on the tree bob according to the volume and rhythm of the music!
