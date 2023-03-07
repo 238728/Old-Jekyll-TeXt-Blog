@@ -1,6 +1,6 @@
 ---
 layout: article
-title: January
+title: 一月
 permalink: /thoughts/january
 key: thoughts-january
 modify_date: 2023-02-03
