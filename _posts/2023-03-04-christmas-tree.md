@@ -1,18 +1,17 @@
 ---
-title: Christmas Tree
-tags: [Blogs, HTML Codes]
+title: 圣诞树
+tags: [HTML]
 author: uupeter
 show_author_profile: true
 modify_date: 2023-03-03
 ---
 
-An HTML code perfect for the christmas holidays!
+这是一个非常适合圣诞节的HTML代码
 <!--more-->
-HTML Code Sharing
 
-Christmas Tree:
+圣诞树HTML代码:
 
-## Code
+## 代码
 
 ```html
 <!DOCTYPE html>
@@ -637,12 +636,12 @@ Christmas Tree:
 
 </html>
 ```
-## Usage
+## 使用方法
 
 Copy the code above to a text file (xxx.txt) and rename it to xxx.html, then open the html file with your default browser and......
 
 Now, you can choose a piece of music from the menu (the first four buttons) or press the last button to upload your own music!
 
-## Effect
+## 效果
 
 Watch as the lights on the tree bob according to the volume and rhythm of the music!
