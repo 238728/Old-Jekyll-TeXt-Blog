@@ -1,6 +1,6 @@
 ---
-title: My first blog
-tags: Blogs
+title: 开通博客备用站喽！
+tags: 未分类
 author: uupeter
 modify_date: 2023-02-02
 comments: true
