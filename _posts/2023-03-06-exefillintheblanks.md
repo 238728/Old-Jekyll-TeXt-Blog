@@ -1,6 +1,6 @@
 ---
 title: 程序填空小测试
-tags: [C++, Blogs, 搬运]
+tags: [C++]
 author: uupeter
 show_author_profile: false
 ---
