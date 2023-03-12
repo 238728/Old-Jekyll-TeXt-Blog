@@ -1,5 +1,5 @@
 ---
-title: 将博客网站部署到Cloudflare Pages
+title: 将博客网站部署到Cloudflare Pages（附Jekyll TeXt Thene特殊说明）
 tags: [Web]
 ---
 
@@ -35,7 +35,7 @@ tags: [Web]
 
 # 注意事项
 
-1. 对于本博客使用的Jekyll TeXt Theme来说，不能直接部署，否则会出错：
+对于本博客使用的Jekyll TeXt Theme来说，不能直接部署，否则会出错：
 ```
 ...requires rubygems version >= 3.3.22,
 which is incompatible with the current version, 3.1.2
@@ -45,3 +45,13 @@ which is incompatible with the current version, 3.1.2
 gem "github-pages", "~> 215", group: :jekyll_plugins
 ```
 我的Gemfile长这样：
+```
+source "https://rubygems.org"
+
+# gem "github-pages", group: :jekyll_plugins
+gem "github-pages", "~> 215", group: :jekyll_plugins
+gemspec
+```
+这样就可以啦！:smiley:
+
+~~苦苦费了一个月琢磨这个问题没有琢磨出来，最终发现原来是Gemfile的问题……~~
