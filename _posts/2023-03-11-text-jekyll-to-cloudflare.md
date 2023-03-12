@@ -56,6 +56,6 @@ source "https://rubygems.org"
 gem "github-pages", "~> 215", group: :jekyll_plugins
 gemspec
 ```
-这样就可以啦！:smiley:
+这样就可以啦！:smiley::smiley::smiley:
 
 ~~苦苦费了一个月琢磨这个问题没有琢磨出来，最终发现原来是Gemfile的问题……~~
