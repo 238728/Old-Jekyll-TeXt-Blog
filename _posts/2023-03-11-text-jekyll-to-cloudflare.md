@@ -29,12 +29,12 @@ Cloudflare网站部署小记
 
 ## 设置网站
 
-1. [登录Cloudflare控制台](https://dash.cloudflare.com/) ![Cloudflare控制台](https://raw.githubusercontent.com/238728/238728.github.io/master/screenshots/cfdash-1.jpeg)
+1. [登录Cloudflare控制台](https://dash.cloudflare.com/) ![Cloudflare控制台](/screenshots/cfdash-1.jpeg)
 2. 导航到Pages 
-3. 点击Create a project ![创建项目](https://raw.githubusercontent.com/238728/238728.github.io/master/screenshots/cfdash-2.jpeg)
-4. 点击Connect to a Git Provider ![连接仓库](https://raw.githubusercontent.com/238728/238728.github.io/master/screenshots/cfdash-3.jpeg)
-5. 在Github下面选择自己的账户和仓库（如果没有，则需要将Github账号连接到Cloudflare Pages） ![连接账户](https://raw.githubusercontent.com/238728/238728.github.io/master/screenshots/cfdash-4.jpeg)
-6. Framework Preset选择对应你的博客的框架（Hexo, Hugo, Node.js, Vue, Jekyll等等）如果框架选项中没有你博客的框架（例如Hexo），请参阅[Cloudflare Pages官方文档](https://developers.cloudflare.com/pages/framework-guides/)进行部署。在这里我以本博客为例，框架为Jekyll，直接选即可。接着点击Save and Deploy ![博客框架](https://raw.githubusercontent.com/238728/238728.github.io/master/screenshots/cfdash-5.jpeg)
+3. 点击Create a project ![创建项目](/screenshots/cfdash-2.jpeg)
+4. 点击Connect to a Git Provider ![连接仓库](/screenshots/cfdash-3.jpeg)
+5. 在Github下面选择自己的账户和仓库（如果没有，则需要将Github账号连接到Cloudflare Pages） ![连接账户](/screenshots/cfdash-4.jpeg)
+6. Framework Preset选择对应你的博客的框架（Hexo, Hugo, Node.js, Vue, Jekyll等等）如果框架选项中没有你博客的框架（例如Hexo），请参阅[Cloudflare Pages官方文档](https://developers.cloudflare.com/pages/framework-guides/)进行部署。在这里我以本博客为例，框架为Jekyll，直接选即可。接着点击Save and Deploy ![博客框架](/screenshots/cfdash-5.jpeg)
 7. 等待部署即可（如果网速快的话，大约一分半的时间就可以完成）
 
 # 注意事项
