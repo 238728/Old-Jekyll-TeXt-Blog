@@ -24,6 +24,7 @@
       el: '#vcomments',
       appId:  '{{ _VALINE_APP_ID }}',
       appKey: '{{ _VALINE_APP_KEY }}',
+      path: 'window.location.pathname',
     };
     {%- if _VALINE_PLACEHOLDER -%}
       _config.placeholder = '{{ _VALINE_PLACEHOLDER }}';
