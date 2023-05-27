@@ -97,7 +97,7 @@ header:
       fr-FR   : *FR
       fr-LU   : *FR
       # @end locale config
-    url: /editormd.html
+    url: /tools.html
     
 thoughts:
   - title:      2023
