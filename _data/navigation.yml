@@ -48,6 +48,31 @@ header:
       fr-LU   : *FR
     url: /thoughts.html
     key: thoughts
+    
+  - titles:
+      # @start locale config
+      en      : &EN       Tools
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  工具
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  工具
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      ko      : &KO       도구
+      ko-KR   : *KO
+      fr      : &FR       outil
+      fr-BE   : *FR
+      fr-CA   : *FR
+      fr-CH   : *FR
+      fr-FR   : *FR
+      fr-LU   : *FR
+      # @end locale config
+    url: /tools.html
 
   - titles:
       # @start locale config
@@ -73,31 +98,6 @@ header:
       fr-LU   : *FR
       # @end locale config
     url: /about.html
-    
-  - titles:
-      # @start locale config
-      en      : &EN       Editor.md
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  编辑器
-      zh      : *ZH_HANS
-      zh-CN   : *ZH_HANS
-      zh-SG   : *ZH_HANS
-      zh-Hant : &ZH_HANT  編輯器
-      zh-TW   : *ZH_HANT
-      zh-HK   : *ZH_HANT
-      ko      : &KO       편집자
-      ko-KR   : *KO
-      fr      : &FR       éditeur
-      fr-BE   : *FR
-      fr-CA   : *FR
-      fr-CH   : *FR
-      fr-FR   : *FR
-      fr-LU   : *FR
-      # @end locale config
-    url: /tools.html
     
 thoughts:
   - title:      2023
