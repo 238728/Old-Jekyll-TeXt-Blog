@@ -2,7 +2,7 @@
 layout: page
 title: Tools
 ---
-<!DOCTYPE html>
+
 <link rel="stylesheet" href="/editormd/css/editormd.css" />
 <div id="test-editor">
     <textarea style="display:none;"></textarea>
@@ -13,15 +13,15 @@ title: Tools
     $(function() {
         var editor = editormd("test-editor", {
             mode: "markdown",
-            width  : "100%",
-            height : 640,
-            emoji : true,
-            tex : true,          // TeX(LaTeX), based on KaTeX
-            flowChart : true,          // flowChart.js only support IE9+
-            sequenceDiagram : true,          // sequenceDiagram.js only support IE9+
+            width: "100%",
+            height: 640,
+            emoji: true,
+            tex: true,          // TeX(LaTeX), based on KaTeX
+            flowChart: true,          // flowChart.js only support IE9+
+            sequenceDiagram: true,          // sequenceDiagram.js only support IE9+
             placeholder: "Edit Markdown...",
-            previewCodeHighlight : true,   
-            path   : "/editormd/lib/"
+            previewCodeHighlight: true,   
+            path: "/editormd/lib/"
         });
     });
 </script>
