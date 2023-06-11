@@ -232,9 +232,9 @@ defaults:
       show_edit_on_github: true
       show_date: false
   - scope:
-      layout: article
-      path: "_tools"
     values:
+      layout: page
+      path: "_tools"
       nav_key: tools
     sidebar:
         nav: tools
