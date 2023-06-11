@@ -1,5 +1,5 @@
 ---
-title: 将博客网站部署到Cloudflare Pages（附Jekyll TeXt Thene特殊说明）
+title: 将博客网站部署到Cloudflare Pages（附Jekyll TeXt Theme特殊说明）
 tags: [Web]
 ---
 
