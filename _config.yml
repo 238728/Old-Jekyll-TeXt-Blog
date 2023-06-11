@@ -236,6 +236,8 @@ defaults:
       path: "_editormd"
     values:
       nav_key: editormd
+    sidebar:
+        nav: thoughts
     show_date: false
 
 
