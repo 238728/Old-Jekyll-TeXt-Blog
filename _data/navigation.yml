@@ -106,5 +106,7 @@ thoughts:
         url:    /thoughts/january
 
 tools:
-  - title:      2023
-    url: /index.html
+  - title:      Group 1
+    children:
+      - title: Editor.md
+        url: /tools/editor.md
