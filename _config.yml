@@ -203,7 +203,7 @@ exclude:
 collections:
   thoughts:
     output: true
-  editormd:
+  tools:
     output: true
 
 defaults:
@@ -235,7 +235,6 @@ defaults:
     values:
       layout: page
       path: "_tools"
-      nav_key: tools
     sidebar:
         nav: tools
     show_date: false
