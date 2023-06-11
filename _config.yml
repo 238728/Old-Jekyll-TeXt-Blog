@@ -233,11 +233,11 @@ defaults:
       show_date: false
   - scope:
       layout: article
-      path: "_editormd"
+      path: "_tools"
     values:
-      nav_key: editormd
+      nav_key: tools
     sidebar:
-        nav: thoughts
+        nav: tools
     show_date: false
 
 
