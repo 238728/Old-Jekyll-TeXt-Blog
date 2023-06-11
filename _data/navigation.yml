@@ -104,6 +104,7 @@ thoughts:
     children:
       - title:  一月
         url:    /thoughts/january
-        children:
-          - title: Hi!
-            url:   /thoughts/january
+
+tools:
+  - title:      2023
+    url: /index.html
