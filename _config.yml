@@ -201,6 +201,10 @@ exclude:
   - /test
   - /vendor
 
+collections:
+  tools:
+    output: true
+
 defaults:
   - scope:
       path: ""
@@ -214,6 +218,12 @@ defaults:
       show_edit_on_github: true
       show_subscribe: true
       pageview: true
+  - scope:
+      layout: article
+      path: "_tools"
+    values:
+      nav_key: tools
+    show_date: false
 
 
 ## => Plugins
