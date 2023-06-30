@@ -10,22 +10,6 @@ permalink: /tools/editormd.html
 </div>
 <script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
 <script src="/editormd/editormd.min.js"></script>
-<script>
-    var key = 'default_md_key';
-    mdEditor.on("load", function(){
-        var content = localStorage.getItem(key);
-        if(content){
-            var f = confirm("您上次编辑的文章未提交，是否恢复？内容：\n"+content);
-            if(f == true){
-                testEditor.setValue(content)
-            }
-        }
-    })
-
-    mdEditor.on("change", function(){
-        localStorage.setItem(key,this.getValue())
-    })
-</script>
 <script type="text/javascript">
     $(function() {
         var editor = editormd("test-editor", {
