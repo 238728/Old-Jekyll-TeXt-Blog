@@ -33,7 +33,7 @@ timezone: Europe/London # see https://en.wikipedia.org/wiki/List_of_tz_database_
 
 ## => Author and Social
 ##############################
-author:
+author: uupeter
   type      : # "person" (default), "organization"
   name      : uupeter
   url       :
