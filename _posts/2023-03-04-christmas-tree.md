@@ -1,8 +1,6 @@
 ---
 title: 圣诞树
 tags: [HTML]
-author: uupeter
-show_author_profile: true
 modify_date: 2023-03-03
 ---
 
