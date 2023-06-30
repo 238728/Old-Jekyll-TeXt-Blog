@@ -23,49 +23,5 @@ permalink: /tools/editormd.html
             previewCodeHighlight : true,
             taskList             : true,          // Enable Github Flavored Markdown task lists
             emoji                : true,
-            path   : "/editormd/lib/",
-            // 工具栏添加一个自定义方法
-                toolbarIcons: function() {
-                    // 给工具栏full模式添加一个自定义方法
-                    return editormd.toolbarModes.full.concat(["customIcon"]);
-                },
-                // 自定义方法的图标 指定一个FontAawsome的图标类
-                toolbarIconsClass: {
-                    customIcon: "fa-paste"
-                },
-                // 没有图标可以插入内容，字符串或HTML标签
-                toolbarIconTexts: {
-                    customIcon: "从草稿箱加载"
-                },
-                // 图标的title
-                lang: {
-                    toolbar: {
-                        customIcon: "从草稿箱加载"
-                    }
-                },
-                // 自定义工具栏按钮的事件处理
-                toolbarHandlers: {
-                    customIcon: function(){
-                        // 读取缓存内容
-                        testEditor.CodeAutoSaveGetCache();
-                    }
-                },
-                // 自定义工具栏按钮的事件处理
-                onload: function() {
-                    // 引入插件 执行监听方法
-                    editormd.loadPlugin("../plugins/code-auto-save/code-auto-save", function() {
-                        // 初始化插件 实现监听
-                        testEditor.CodeAutoSave();
-                    });
-                }
-            });
-            /********以下方法需要在插件初始化完成后方可调用********/
-            // 删除缓存
-            testEditor.CodeAutoSaveDelCache();
-            // 清空缓存的文档内容
-            testEditor.CodeAutoSaveEmptyCacheContent();
-            // 自定义设置缓存
-            testEditor.CodeAutoSaveSetCache('缓存内容');
-        });
-    });
+            path   : "/editormd/lib/"
 </script>
