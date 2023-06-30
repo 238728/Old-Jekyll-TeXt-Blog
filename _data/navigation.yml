@@ -26,56 +26,6 @@ header:
 
   - titles:
       # @start locale config
-      en      : &EN       Thoughts
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  随想录
-      zh      : *ZH_HANS
-      zh-CN   : *ZH_HANS
-      zh-SG   : *ZH_HANS
-      zh-Hant : &ZH_HANT  隨想錄
-      zh-TW   : *ZH_HANT
-      zh-HK   : *ZH_HANT
-      ko      : &KO       생각
-      ko-KR   : *KO
-      fr      : &FR       Pensées
-      fr-BE   : *FR
-      fr-CA   : *FR
-      fr-CH   : *FR
-      fr-FR   : *FR
-      fr-LU   : *FR
-    url: /thoughts.html
-    key: thoughts
-    
-  - titles:
-      # @start locale config
-      en      : &EN       Tools
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  工具
-      zh      : *ZH_HANS
-      zh-CN   : *ZH_HANS
-      zh-SG   : *ZH_HANS
-      zh-Hant : &ZH_HANT  工具
-      zh-TW   : *ZH_HANT
-      zh-HK   : *ZH_HANT
-      ko      : &KO       도구
-      ko-KR   : *KO
-      fr      : &FR       outil
-      fr-BE   : *FR
-      fr-CA   : *FR
-      fr-CH   : *FR
-      fr-FR   : *FR
-      fr-LU   : *FR
-      # @end locale config
-    url: /tools.html
-
-  - titles:
-      # @start locale config
       en      : &EN       About
       en-GB   : *EN
       en-US   : *EN
@@ -98,15 +48,3 @@ header:
       fr-LU   : *FR
       # @end locale config
     url: /about.html
-    
-thoughts:
-  - title:      2023
-    children:
-      - title:  一月
-        url:    /thoughts/january
-
-tools:
-  - title:      Group 1
-    children:
-      - title: Editor.md
-        url: /tools/editor.md

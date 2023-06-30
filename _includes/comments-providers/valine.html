@@ -24,7 +24,7 @@
       el: '#vcomments',
       appId:  '{{ _VALINE_APP_ID }}',
       appKey: '{{ _VALINE_APP_KEY }}',
-      serverURLs: 'http://99rcykvt.api.lncldglobal.com',
+      verify: true,
     };
     {%- if _VALINE_PLACEHOLDER -%}
       _config.placeholder = '{{ _VALINE_PLACEHOLDER }}';
