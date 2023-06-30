@@ -1,7 +1,6 @@
 ---
 title: 程序填空小测试
 tags: [C++]
-author: uupeter
 show_author_profile: false
 ---
 ~~不知道为什么，和标准答案对比，我应该得**12分**，而我的最终分数（评测分）为**3分**。 _Why?_ _Why?_ _Why?_~~
