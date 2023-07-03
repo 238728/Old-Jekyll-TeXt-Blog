@@ -25,5 +25,19 @@ title: Tools
     </div>
       </a>
   </div>
+
+  &nbsp;
+
+  <div class="card card--clickable">
+    <a href="/tools/loopy.html">
+    <div class="card__content">
+      <div class="card__header">
+      <h4>Loopy</h4>
+    </div>
+    <p>A tool for thinking in systems. You can program by just simply drawing.</p>
+    </div>
+      </a>
+  </div>
+  
   
 
