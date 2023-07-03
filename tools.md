@@ -2,42 +2,14 @@
 layout: article
 title: Tools
 ---
-  <div class="card card--clickable">
-    <a href="/tools/editormd.html">
-    <div class="card__content">
-      <div class="card__header">
-      <h4>Editor.md</h4>
-    </div>
-    <p>A handy, useful markdown editor. Natively supports LATEX, flowcharts, and sequence diagrams. It also supports emojis, tasklists, and "@"-style email links.</p>
-    </div>
-    </a>
-  </div>
-  
-&nbsp;
-  
-  <div class="card card--clickable">
-    <a href="/tools/catch-the-cat.html">
-    <div class="card__content">
-      <div class="card__header">
-      <h4>Catch the Cat</h4>
-    </div>
-    <p>A little game. Its main goal is to surround the cat with "blocks" to win. Great for relaxation.</p>
-    </div>
-      </a>
-  </div>
+### [Editor.md](/tools/editormd.html)
+A handy, useful markdown editor. Natively supports LATEX, flowcharts, and sequence diagrams. It also supports emojis, tasklists, and "@"-style email links.
 
-  &nbsp;
+### [Catch the Cat](/tools/catch-the-cat.html)
+A little game. Its main goal is to surround the cat with "blocks" to win. Great for relaxation.
 
-  <div class="card card--clickable">
-    <a href="/tools/loopy.html">
-    <div class="card__content">
-      <div class="card__header">
-      <h4>Loopy</h4>
-    </div>
-    <p>A tool for thinking in systems. You can program by just simply drawing.</p>
-    </div>
-      </a>
-  </div>
+### [Loopy](/tools/loopy.html)
+A tool for thinking in systems. You can program by just simply drawing.
   
   
 
